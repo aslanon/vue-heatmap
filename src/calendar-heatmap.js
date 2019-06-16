@@ -199,7 +199,7 @@ export let calendarHeatmap = {
           .attr("width", width)
           .attr("class", "calendar-heatmap")
           .attr("height", height)
-          .attr("viewBox", "-20 0 710 140")
+          .attr("viewBox", "-20 0 750 140")
           .style("padding", "10px");
 
         dayRects = svg.selectAll(".day-cell").data(dateRange); //  array of days for the last yr
