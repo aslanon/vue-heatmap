@@ -4,7 +4,7 @@ import * as d3 from "d3";
 export let calendarHeatmap = {
   init() {
     // defaults
-    let width = 750;
+    let width = 1000;
     let height = 200;
     let legendWidth = 150;
     let selector = ".vuejs-heatmap";
@@ -199,7 +199,7 @@ export let calendarHeatmap = {
           .attr("width", width)
           .attr("class", "calendar-heatmap")
           .attr("height", height)
-          .attr("viewBox", "-20 0 750 140")
+          .attr("viewBox", "-20 0 760 130")
           .style("padding", "10px");
 
         dayRects = svg.selectAll(".day-cell").data(dateRange); //  array of days for the last yr
